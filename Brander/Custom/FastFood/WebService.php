@@ -7,7 +7,7 @@ use DOMDocument;
 abstract class WebService
 {
     protected $httpTransport;
-    protected $arrayTag = ['Item', 'Category', 'Address', 'Phone', 'Customer00'];
+    protected $arrayTag = ['Item', 'Category', 'Address', 'Phone', 'Customer'];
     protected $domTag = ['string'];
     protected $singleTag = ['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones'];
 
@@ -51,11 +51,12 @@ abstract class WebService
                 if ($child->nodeName === '#text') {
                     continue;
                 }
-                if (in_array($node->nodeName, $this->arrayTag)) {
+                if (in_array($node->nodeName, $this->arrayTag) && !in_array($child->nodeName, $this->singleTag)) {
                     $parent[] = $this->parse($child);
-                } else if (in_array($child->nodeName, $this->singleTag)){
-                      $dom = $this->parse($child);
-                      $parent[$node->nodeName][$child->nodeName] = $dom[$child->nodeName];//[$child->nodeName];
+                } elseif (in_array($node->nodeName, $this->arrayTag) && in_array($child->nodeName, $this->singleTag)) {
+                    $parent[$child->nodeName] = $this->parse($child)[$child->nodeName];
+                } elseif (in_array($child->nodeName, $this->singleTag)) {
+                    $parent[$node->nodeName][$child->nodeName] = $this->parse($child)[$child->nodeName];//[$child->nodeName];
                 } else {
                     $parent[$node->nodeName][] = $this->parse($child);
                 }
