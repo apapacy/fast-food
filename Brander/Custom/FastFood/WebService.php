@@ -29,7 +29,9 @@ abstract class WebService
 
     private function parse(&$node, $level = 0)
     {
-        $parent = [];
+        if ($level > 1000) {
+          throw new \Exception('too many reccursion');
+        }
         if ($node->hasAttributes()) {
             foreach ($node->attributes as $attribute) {
                 if (!in_array($node->nodeName, $this->arrayTag) && !in_array($node->nodeName, $this->singleTag)) {
@@ -40,23 +42,22 @@ abstract class WebService
             }
         }
         if (!$node->hasChildNodes()) {
-            //$parent[$node->nodeName]['#value'] = $node->nodeValue;
 
             return $parent;
         } else {
             foreach ($node->childNodes as $child) {
-                if ($node->nodeName === 'string' && $child->nodeName === '#text') {
+                if (in_array($node->nodeName, $this->domTag) && $child->nodeName === '#text') {
                     $child = DOMDocument::loadXML($child->nodeValue);
                 }
                 if ($child->nodeName === '#text') {
                     continue;
                 }
                 if (in_array($node->nodeName, $this->arrayTag) && !in_array($child->nodeName, $this->singleTag)) {
-                    $parent[] = $this->parse($child);
+                    $parent[] = $this->parse($child, $level + 1);
                 } elseif (in_array($node->nodeName, $this->arrayTag) && in_array($child->nodeName, $this->singleTag)) {
-                    $parent[$child->nodeName] = $this->parse($child)[$child->nodeName];
+                    $parent[$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];
                 } elseif (in_array($child->nodeName, $this->singleTag)) {
-                    $parent[$node->nodeName][$child->nodeName] = $this->parse($child)[$child->nodeName];//[$child->nodeName];
+                    $parent[$node->nodeName][$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];//[$child->nodeName];
                 } else {
                     $parent[$node->nodeName][] = $this->parse($child);
                 }
