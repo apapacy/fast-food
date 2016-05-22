@@ -7,9 +7,9 @@ use DOMDocument;
 abstract class WebService
 {
     protected $httpTransport;
-    protected $arrayTag = ['Item', 'Category', 'Address', 'Phone', 'Customer'];
+    protected $arrayTag = ['Item', 'Category', 'Address', 'Phone', 'Customer00'];
     protected $domTag = ['string'];
-    protected $singleTag = [];//['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones'];
+    protected $singleTag = ['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones'];
 
     public function __construct()
     {
@@ -32,11 +32,11 @@ abstract class WebService
         $parent = [];
         if ($node->hasAttributes()) {
             foreach ($node->attributes as $attribute) {
-              if (!in_array($node->nodeName, $this->arrayTag)) {
-                $parent[$node->nodeName][$attribute->nodeName] = $attribute->nodeValue;
-              } else {
-                $parent[$attribute->nodeName] = $attribute->nodeValue;
-              }
+                if (!in_array($node->nodeName, $this->arrayTag) && !in_array($node->nodeName, $this->singleTag)) {
+                    $parent[$node->nodeName][$attribute->nodeName] = $attribute->nodeValue;
+                } else {
+                    $parent[$attribute->nodeName] = $attribute->nodeValue;
+                }
             }
         }
         if (!$node->hasChildNodes()) {
@@ -53,6 +53,9 @@ abstract class WebService
                 }
                 if (in_array($node->nodeName, $this->arrayTag)) {
                     $parent[] = $this->parse($child);
+                } else if (in_array($child->nodeName, $this->singleTag)){
+                      $dom = $this->parse($child);
+                      $parent[$node->nodeName][$child->nodeName] = $dom[$child->nodeName];//[$child->nodeName];
                 } else {
                     $parent[$node->nodeName][] = $this->parse($child);
                 }
