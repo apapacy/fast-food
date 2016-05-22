@@ -29,14 +29,17 @@ abstract class WebService
 
     private function parse(&$node, $options = [], $collection = false, &$parent = [], $level = 0)
     {
+      foreach ($node->attributes as $attribute) {
+          $parent[$attribute->nodeName] = $attribute->nodeValue;
+      }
         foreach ($node->childNodes as $child) {
             if ($child->hasChildNodes()) {
                 if (in_array($child->nodeName, $this->domTag)) {
                   $this->parse($child, $options, false, $parent, $level + 1);
                 } else if (in_array($child->nodeName, $this->arrayTag) || $level === 0) {
-                    $this->parse($child, $options, true, $parent[], $level + 1);
+                    $this->parse($child, $options,true, $parent[], $level + 1);
                 } else {
-                    $this->parse($child, $options, true, $parent[$child->nodeName][], $level + 1);
+                    $this->parse($child, $options, true, $parent[$child->nodeName], $level + 1);
                 }
             } else {
                 if ($child->nodeName === '#text') {
@@ -53,7 +56,7 @@ abstract class WebService
                     if (in_array($child->nodeName, $this->arrayTag) || $level === 0) {
                         $parent[] = $item;
                     } else {
-                        $parent[$child->nodeName][] = $item;
+                        $parent[$child->nodeName] = $item;
                     }
                 }
             }
