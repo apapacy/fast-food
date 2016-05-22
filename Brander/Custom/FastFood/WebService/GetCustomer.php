@@ -5,8 +5,8 @@ namespace Brander\Custom\FastFood\WebService;
 class GetCustomer extends \Brander\Custom\FastFood\WebService
 {
 
-    protected $arrayTag = ['Address', 'Phone','Customer'];
-    protected $singleTag = ['Phones'];
+    //protected $arrayTag = ['Address', 'Phone','Customer'];
+    //protected $singleTag = ['Phones'];
 
 
     public function get($login = '', $phone = '' )
