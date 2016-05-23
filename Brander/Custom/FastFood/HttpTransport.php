@@ -37,7 +37,7 @@ class HttpTransport {
       ];
     }
 
-    public function post($path, $postData) {
+    public function post($path, $postData = []) {
       for ($i = 1; $i < self::TRY_COUNT; ++$i) {
           $output = $this->send($path, $postData);
           if ($output['status'] === 'OK') {

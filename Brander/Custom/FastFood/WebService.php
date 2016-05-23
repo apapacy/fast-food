@@ -8,6 +8,7 @@ abstract class WebService
 {
     protected $httpTransport;
     protected $arrayTag = ['Item', 'Category', 'Address', 'Phone', 'Customer'];
+    protected $arrayGroup = ['Category' => 'Categories'];
     protected $domTag = ['string'];
     protected $singleTag = ['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones'];
 
@@ -34,7 +35,7 @@ abstract class WebService
         }
         if ($node->hasAttributes()) {
             foreach ($node->attributes as $attribute) {
-                if (!in_array($node->nodeName, $this->arrayTag) && !in_array($node->nodeName, $this->singleTag)) {
+                if (!in_array($node->nodeName, $this->arrayTag)) {
                     $parent[$node->nodeName][$attribute->nodeName] = $attribute->nodeValue;
                 } else {
                     $parent[$attribute->nodeName] = $attribute->nodeValue;
@@ -53,8 +54,8 @@ abstract class WebService
                     continue;
                 }
                 if (in_array($node->nodeName, $this->arrayTag) && !in_array($child->nodeName, $this->singleTag)) {
-                  if ($child->nodeName === 'Category') {
-                    $parent['Categories'][] = $this->parse($child, $level + 1);
+                  if (isset($this->arrayGroup[$child->nodeName])) {
+                    $parent[$this->arrayGroup[$child->nodeName]][] = $this->parse($child, $level + 1);
                   } else {
                     $parent[] = $this->parse($child, $level + 1);
                   }
@@ -63,8 +64,8 @@ abstract class WebService
                 } elseif (in_array($child->nodeName, $this->singleTag)) {
                     $parent[$node->nodeName][$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];//[$child->nodeName];
                 } else {
-                  if ($child->nodeName === 'Category') {
-                    $parent[$node->nodeName]['Categories'][] = $this->parse($child);
+                  if (isset($this->arrayGroup[$child->nodeName])) {
+                    $parent[$node->nodeName][$this->arrayGroup[$child->nodeName]][] = $this->parse($child);
                   } else {
                     $parent[$node->nodeName][] = $this->parse($child);
                   }
