@@ -4,10 +4,10 @@ spl_autoload_register(function ($class) {
 });
 
 $cities = new \Brander\Custom\FastFood\WebService\GetCities;
-print_r($cities->get());
+//print_r($cities->get());
 $cities = new \Brander\Custom\FastFood\WebService\GetCustomer;
-print_r($cities->get('test@brander.com'));
+//print_r($cities->get('test000@brander.com'));
 $cities = new \Brander\Custom\FastFood\WebService\GetStreets;
-print_r($cities->get(100000000));
+//print_r($cities->get(100000000));
 $cities = new \Brander\Custom\FastFood\WebService\GetMenu;
-print_r($cities->get());
+var_dump($cities->get());
