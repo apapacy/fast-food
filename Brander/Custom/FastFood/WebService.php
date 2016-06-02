@@ -3,6 +3,7 @@
 namespace Brander\Custom\FastFood;
 
 use DOMDocument;
+use Exceptioin;
 
 abstract class WebService
 {
@@ -26,7 +27,7 @@ abstract class WebService
             if (isset($array[$property])) {
                 $array = $array[$property];
             } else {
-                throw new \Exception("array property '$property' is not set");
+                throw new Exception("array property '$property' is not set");
             }
         }
 
@@ -36,7 +37,7 @@ abstract class WebService
     private function parse(&$node, $level = 0)
     {
         if ($level > 1000) {
-            throw new \Exception('too many reccursion');
+            throw new Exception('too many reccursion');
         }
         if ($node->hasAttributes()) {
             foreach ($node->attributes as $attribute) {
