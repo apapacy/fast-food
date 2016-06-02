@@ -11,27 +11,32 @@ abstract class WebService
     protected $arrayGroup = ['Category' => 'Categories'];
     protected $domTag = ['string'];
     protected $singleTag = ['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones'];
+    protected $path = ['#document', 'string', '#document', 'xml'];
 
     public function __construct()
     {
         $this->httpTransport = new HttpTransport();
     }
 
-    protected function parseModel()
-    {
-    }
-
-    protected function parseCollection($response, $options = [])
+    protected function get($response, $options = [])
     {
         $dom = DOMDocument::loadXML($response);
+        $array = $this->parse($dom);
+        foreach ($this->path as $property) {
+            if (isset($array[$property])) {
+                $array = $array[$property];
+            } else {
+                throw new \Exception("array property '$property' is not set");
+            }
+        }
 
-        return $this->parse($dom);
+        return $array;
     }
 
     private function parse(&$node, $level = 0)
     {
         if ($level > 1000) {
-          throw new \Exception('too many reccursion');
+            throw new \Exception('too many reccursion');
         }
         if ($node->hasAttributes()) {
             foreach ($node->attributes as $attribute) {
@@ -43,7 +48,6 @@ abstract class WebService
             }
         }
         if (!$node->hasChildNodes()) {
-
             return $parent;
         } else {
             foreach ($node->childNodes as $child) {
@@ -54,21 +58,21 @@ abstract class WebService
                     continue;
                 }
                 if (in_array($node->nodeName, $this->arrayTag) && !in_array($child->nodeName, $this->singleTag)) {
-                  if (isset($this->arrayGroup[$child->nodeName])) {
-                    $parent[$this->arrayGroup[$child->nodeName]][] = $this->parse($child, $level + 1);
-                  } else {
-                    $parent[] = $this->parse($child, $level + 1);
-                  }
+                    if (isset($this->arrayGroup[$child->nodeName])) {
+                        $parent[$this->arrayGroup[$child->nodeName]][] = $this->parse($child, $level + 1);
+                    } else {
+                        $parent[] = $this->parse($child, $level + 1);
+                    }
                 } elseif (in_array($node->nodeName, $this->arrayTag) && in_array($child->nodeName, $this->singleTag)) {
                     $parent[$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];
                 } elseif (in_array($child->nodeName, $this->singleTag)) {
                     $parent[$node->nodeName][$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];//[$child->nodeName];
                 } else {
-                  if (isset($this->arrayGroup[$child->nodeName])) {
-                    $parent[$node->nodeName][$this->arrayGroup[$child->nodeName]][] = $this->parse($child);
-                  } else {
-                    $parent[$node->nodeName][] = $this->parse($child);
-                  }
+                    if (isset($this->arrayGroup[$child->nodeName])) {
+                        $parent[$node->nodeName][$this->arrayGroup[$child->nodeName]][] = $this->parse($child);
+                    } else {
+                        $parent[$node->nodeName][] = $this->parse($child);
+                    }
                 }
             }
         }
