@@ -1,0 +1,2101 @@
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.262825
+            [namelookup_time] => 0.252677
+            [connect_time] => 0.257709
+            [pretransfer_time] => 0.257776
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 810
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.262789
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58524
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 198
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.01299
+            [namelookup_time] => 4.1E-5
+            [connect_time] => 0.007702
+            [pretransfer_time] => 0.007767
+            [size_upload] => 34
+            [size_download] => 109
+            [speed_download] => 8391
+            [speed_upload] => 2617
+            [download_content_length] => 109
+            [upload_content_length] => 34
+            [starttransfer_time] => 0.012956
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58525
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.273823
+            [namelookup_time] => 0.25265
+            [connect_time] => 0.268636
+            [pretransfer_time] => 0.2687
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 777
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.273787
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58534
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 198
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.024621
+            [namelookup_time] => 3.5E-5
+            [connect_time] => 0.011643
+            [pretransfer_time] => 0.011709
+            [size_upload] => 34
+            [size_download] => 109
+            [speed_download] => 4427
+            [speed_upload] => 1380
+            [download_content_length] => 109
+            [upload_content_length] => 34
+            [starttransfer_time] => 0.024586
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58535
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.267312
+            [namelookup_time] => 0.252646
+            [connect_time] => 0.2575
+            [pretransfer_time] => 0.257568
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 796
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.267264
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58538
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 198
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.017698
+            [namelookup_time] => 3.0E-5
+            [connect_time] => 0.008121
+            [pretransfer_time] => 0.008173
+            [size_upload] => 34
+            [size_download] => 109
+            [speed_download] => 6158
+            [speed_upload] => 1921
+            [download_content_length] => 109
+            [upload_content_length] => 34
+            [starttransfer_time] => 0.017663
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58539
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.282915
+            [namelookup_time] => 0.25513
+            [connect_time] => 0.272062
+            [pretransfer_time] => 0.272135
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 752
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.282866
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58540
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 198
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.017731
+            [namelookup_time] => 3.1E-5
+            [connect_time] => 0.007666
+            [pretransfer_time] => 0.007728
+            [size_upload] => 34
+            [size_download] => 109
+            [speed_download] => 6147
+            [speed_upload] => 1917
+            [download_content_length] => 109
+            [upload_content_length] => 34
+            [starttransfer_time] => 0.017694
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58541
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.272957
+            [namelookup_time] => 0.252644
+            [connect_time] => 0.264902
+            [pretransfer_time] => 0.264962
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 780
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.272921
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58548
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 198
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.036942
+            [namelookup_time] => 2.7E-5
+            [connect_time] => 0.019523
+            [pretransfer_time] => 0.01957
+            [size_upload] => 34
+            [size_download] => 109
+            [speed_download] => 2950
+            [speed_upload] => 920
+            [download_content_length] => 109
+            [upload_content_length] => 34
+            [starttransfer_time] => 0.036905
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58549
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.267119
+            [namelookup_time] => 0.252667
+            [connect_time] => 0.261976
+            [pretransfer_time] => 0.262038
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 797
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.267082
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58554
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Customer Code="1200005046" Login="test@brander.com" Pwd="" FIO="Алексей" PersonType="физ" OrderCount="1" OrderSum="158.00" LastOrder="17.12.2014" DateOfBirth="" OrdersDiscount="0.00"&gt;&lt;Addresses&gt;&lt;Address CityCode="100000000" CityName="Харьков" StationName="Алексеевская" StreetName="Победы, просп.  " House="72-Г" Corpus="" Building="" Flat="211" Porch="6" Floor="8" DoorCode="211" Room="" Office="" Remark="" /&gt;&lt;/Addresses&gt;&lt;Phones&gt;&lt;Phone Number="0971651202" Remark="" /&gt;&lt;Phone Number="0971651202" Remark="" /&gt;&lt;/Phones&gt;&lt;/Customer&gt;&lt;Customer Code="2300015639" Login="test@brander.com" Pwd="" FIO="Vitaly Cherednichenko" PersonType="физ" OrderCount="2" OrderSum="421.00" LastOrder="28.04.2016" DateOfBirth="" OrdersDiscount="0.00"&gt;&lt;Addresses&gt;&lt;Address CityCode="100000000" CityName="Харьков" StationName="Героев труда" StreetName="Гвардейцев Широнинцев" House="62" Corpus="" Building="" Flat="58" Porch="2" Floor="6" DoorCode="набрать " Room="" Office="" Remark="" /&gt;&lt;/Addresses&gt;&lt;Phones&gt;&lt;Phone Number="0990153281" Remark="" /&gt;&lt;/Phones&gt;&lt;/Customer&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 231
+            [request_size] => 195
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.326249
+            [namelookup_time] => 3.7E-5
+            [connect_time] => 0.007834
+            [pretransfer_time] => 0.007889
+            [size_upload] => 31
+            [size_download] => 1343
+            [speed_download] => 4116
+            [speed_upload] => 95
+            [download_content_length] => 1343
+            [upload_content_length] => 31
+            [starttransfer_time] => 0.326213
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58555
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 1200005046
+                                            [Login] => test@brander.com
+                                            [Pwd] => 
+                                            [FIO] => Алексей
+                                            [PersonType] => физ
+                                            [OrderCount] => 1
+                                            [OrderSum] => 158.00
+                                            [LastOrder] => 17.12.2014
+                                            [DateOfBirth] => 
+                                            [OrdersDiscount] => 0.00
+                                            [Addresses] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [CityCode] => 100000000
+                                                            [CityName] => Харьков
+                                                            [StationName] => Алексеевская
+                                                            [StreetName] => Победы, просп.  
+                                                            [House] => 72-Г
+                                                            [Corpus] => 
+                                                            [Building] => 
+                                                            [Flat] => 211
+                                                            [Porch] => 6
+                                                            [Floor] => 8
+                                                            [DoorCode] => 211
+                                                            [Room] => 
+                                                            [Office] => 
+                                                            [Remark] => 
+                                                        )
+
+                                                )
+
+                                            [Phones] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [Number] => 0971651202
+                                                            [Remark] => 
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [Number] => 0971651202
+                                                            [Remark] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 2300015639
+                                            [Login] => test@brander.com
+                                            [Pwd] => 
+                                            [FIO] => Vitaly Cherednichenko
+                                            [PersonType] => физ
+                                            [OrderCount] => 2
+                                            [OrderSum] => 421.00
+                                            [LastOrder] => 28.04.2016
+                                            [DateOfBirth] => 
+                                            [OrdersDiscount] => 0.00
+                                            [Addresses] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [CityCode] => 100000000
+                                                            [CityName] => Харьков
+                                                            [StationName] => Героев труда
+                                                            [StreetName] => Гвардейцев Широнинцев
+                                                            [House] => 62
+                                                            [Corpus] => 
+                                                            [Building] => 
+                                                            [Flat] => 58
+                                                            [Porch] => 2
+                                                            [Floor] => 6
+                                                            [DoorCode] => набрать 
+                                                            [Room] => 
+                                                            [Office] => 
+                                                            [Remark] => 
+                                                        )
+
+                                                )
+
+                                            [Phones] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [Number] => 0990153281
+                                                            [Remark] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.08462
+            [namelookup_time] => 0.060431
+            [connect_time] => 0.074522
+            [pretransfer_time] => 0.074577
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 2517
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.084582
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58563
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.018173
+            [namelookup_time] => 3.1E-5
+            [connect_time] => 0.009323
+            [pretransfer_time] => 0.009377
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 5997
+            [speed_upload] => 1815
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.018142
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58564
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.277099
+            [namelookup_time] => 0.252565
+            [connect_time] => 0.26253
+            [pretransfer_time] => 0.262592
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 768
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.277066
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58572
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.017642
+            [namelookup_time] => 3.6E-5
+            [connect_time] => 0.007799
+            [pretransfer_time] => 0.007864
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 6178
+            [speed_upload] => 1870
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.017604
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58573
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.531151
+            [namelookup_time] => 0.508874
+            [connect_time] => 0.519167
+            [pretransfer_time] => 0.519248
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 401
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.531111
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58581
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.01732
+            [namelookup_time] => 3.3E-5
+            [connect_time] => 0.007355
+            [pretransfer_time] => 0.007408
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 6293
+            [speed_upload] => 1905
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.017286
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58582
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.532116
+            [namelookup_time] => 0.508949
+            [connect_time] => 0.51781
+            [pretransfer_time] => 0.517869
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 400
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.532081
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58588
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.017933
+            [namelookup_time] => 3.4E-5
+            [connect_time] => 0.008258
+            [pretransfer_time] => 0.008322
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 6078
+            [speed_upload] => 1840
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.0179
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58589
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.073458
+            [namelookup_time] => 0.060397
+            [connect_time] => 0.068069
+            [pretransfer_time] => 0.06813
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 2899
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.073422
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58597
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.016045
+            [namelookup_time] => 3.7E-5
+            [connect_time] => 0.006329
+            [pretransfer_time] => 0.006386
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 6793
+            [speed_upload] => 2056
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.015995
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58598
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.135647
+            [namelookup_time] => 0.124476
+            [connect_time] => 0.130451
+            [pretransfer_time] => 0.130506
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 1570
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.135611
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58607
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.012806
+            [namelookup_time] => 3.5E-5
+            [connect_time] => 0.006837
+            [pretransfer_time] => 0.006891
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 8511
+            [speed_upload] => 2576
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.012763
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58608
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.135812
+            [namelookup_time] => 0.124438
+            [connect_time] => 0.130337
+            [pretransfer_time] => 0.1304
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 1568
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.135776
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58609
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.017514
+            [namelookup_time] => 3.8E-5
+            [connect_time] => 0.008316
+            [pretransfer_time] => 0.008365
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 6223
+            [speed_upload] => 1884
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.01748
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58610
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.028055
+            [namelookup_time] => 0.012262
+            [connect_time] => 0.019494
+            [pretransfer_time] => 0.019569
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 7592
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.028005
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58615
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.014614
+            [namelookup_time] => 3.6E-5
+            [connect_time] => 0.007745
+            [pretransfer_time] => 0.007802
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 7458
+            [speed_upload] => 2258
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.01458
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58616
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.158858
+            [namelookup_time] => 0.124495
+            [connect_time] => 0.149099
+            [pretransfer_time] => 0.149175
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 1340
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.158809
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58619
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.012957
+            [namelookup_time] => 3.1E-5
+            [connect_time] => 0.007658
+            [pretransfer_time] => 0.007716
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 8412
+            [speed_upload] => 2546
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.01291
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58620
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;Item Code="100000006" Name="Полтава"/&gt;&lt;Item Code="100000000" Name="Харьков"/&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCities
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 161
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.264418
+            [namelookup_time] => 0.252775
+            [connect_time] => 0.259359
+            [pretransfer_time] => 0.259425
+            [size_upload] => 0
+            [size_download] => 213
+            [speed_download] => 805
+            [speed_upload] => 0
+            [download_content_length] => 213
+            [upload_content_length] => 0
+            [starttransfer_time] => 0.264373
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58624
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Code] => 100000006
+                                            [Name] => Полтава
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Code] => 100000000
+                                            [Name] => Харьков
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [status] => OK
+    [response] => <?xml version="1.0" encoding="utf-8"?>
+<string xmlns="www.fast-operator.ru">&lt;xml&gt;&lt;/xml&gt;</string>
+    [info] => Array
+        (
+            [url] => http://yaposhkacent.ddns.net:5000/FastOperator.asmx/GetCustomer
+            [content_type] => text/xml; charset=utf-8
+            [http_code] => 200
+            [header_size] => 230
+            [request_size] => 197
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.01743
+            [namelookup_time] => 3.8E-5
+            [connect_time] => 0.009476
+            [pretransfer_time] => 0.009537
+            [size_upload] => 33
+            [size_download] => 109
+            [speed_download] => 6253
+            [speed_upload] => 1893
+            [download_content_length] => 109
+            [upload_content_length] => 33
+            [starttransfer_time] => 0.017392
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 82.117.248.31
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 5000
+            [local_ip] => 192.168.1.191
+            [local_port] => 58625
+        )
+
+)
+Array
+(
+    [#document] => Array
+        (
+            [string] => Array
+                (
+                    [#document] => Array
+                        (
+                            [xml] => 
+                        )
+
+                )
+
+        )
+
+)

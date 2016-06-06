@@ -81,7 +81,6 @@ class HttpTransport
                 break;
             }
         }
-print_r($output);
         return $output;
     }
 

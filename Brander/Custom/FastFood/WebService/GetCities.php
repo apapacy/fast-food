@@ -11,8 +11,6 @@ class GetCities extends \Brander\Custom\FastFood\WebService
      */
     public function get()
     {
-        $response = $this->httpTransport->post('GetCities');
-
-        return parent::get($response['response']);
+        return $this->getService('GetCities');
     }
 }

@@ -13,7 +13,6 @@ class GetCustomer extends \Brander\Custom\FastFood\WebService
 
     public function get($login = '', $phone = '' )
     {
-        $response = $this->httpTransport->post('GetCustomer', ['Login'=>$login, 'Phone' => $phone]);
-        return $this->parse($response['response']);
+        return $this->getService('GetCustomer', ['Login'=>$login, 'Phone' => $phone]);
     }
 }
