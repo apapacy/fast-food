@@ -11,7 +11,7 @@ abstract class WebService
     protected $arrayTag = ['Item', 'Category', 'Address', 'Phone', 'Customer'];
     protected $arrayGroup = ['Category' => 'Categories'];
     protected $domTag = ['string'];
-    protected $singleTag = ['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones'];
+    protected $singleTag = ['#document', 'string', 'Menu', 'Path', 'Items', 'xml', 'Addresses', 'Phones', 'Modificators'];
     protected $path = ['#document', 'string', '#document', 'xml'];
 
     public function __construct()
@@ -65,9 +65,9 @@ abstract class WebService
             }
         }
         if (!$node->hasChildNodes()) {
-            if (in_array($node->nodeName, $this->singleTag)
+            if (!isset($parent[$node->nodeName])
+                && in_array($node->nodeName, $this->singleTag)
                 && !in_array($node->nodeName, $this->arrayTag)
-                || in_array($node->nodeName, $this->domTag)
             ) {
                 $parent[$node->nodeName] = [];
             }
