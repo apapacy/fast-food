@@ -19,9 +19,8 @@ abstract class WebService
         $this->httpTransport = new HttpTransport();
     }
 
-
     /**
-     * Для операций связаных з обновлением данных на сервере задается одна попытка
+     * Для операций связаных з обновлением данных на сервере задается одна попытка.
      */
     protected function getServiceOnce($serviceName, $options = [])
     {
@@ -31,16 +30,15 @@ abstract class WebService
     protected function getService($serviceName, $options = [])
     {
         $service = $this->httpTransport->post($serviceName, $options);
-        if ($service['status'] !== 'OK' || $service['info']['http_code'] !== 200 || !$service['response']) {
-          print_r($service);
-          return false;
-        }
         file_put_contents('soap.log', print_r($service, true), FILE_APPEND);
+        if ($service['status'] !== 'OK' || $service['info']['http_code'] !== 200 || !$service['response']) {
+            return false;
+        }
         $dom = DOMDocument::loadXML($service['response'], LIBXML_NOWARNING);
         $array = $this->parse($dom);
         file_put_contents('soap.log', print_r($array, true), FILE_APPEND);
         foreach ($this->path as $property) {
-            if (isset($array[$property])) {
+            if (array_key_exists($property, $array)) {
                 $array = $array[$property];
             } else {
                 //return false;
@@ -67,13 +65,18 @@ abstract class WebService
             }
         }
         if (!$node->hasChildNodes()) {
+            if (in_array($node->nodeName, $this->singleTag)
+                && !in_array($node->nodeName, $this->arrayTag)
+                || in_array($node->nodeName, $this->domTag)
+            ) {
+                $parent[$node->nodeName] = [];
+            }
+
             return $parent;
         } else {
             foreach ($node->childNodes as $child) {
                 if (in_array($node->nodeName, $this->domTag) && $child->nodeName === '#text') {
-                  echo '********************';
                     $child = DOMDocument::loadXML($child->nodeValue, LIBXML_NOWARNING);
-                    print_r($child->firstChild);
                 }
                 if ($child->nodeName === '#text') {
                     continue;
@@ -87,10 +90,8 @@ abstract class WebService
                 } elseif (in_array($node->nodeName, $this->arrayTag) && in_array($child->nodeName, $this->singleTag)) {
                     $parent[$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];
                 } elseif (in_array($child->nodeName, $this->singleTag)) {
-                  print_r($parent);
-                  echo $node->nodeName;
-                  echo $child->nodeName;
-                    $parent[$node->nodeName][$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];//[$child->nodeName];
+                    $e = $this->parse($child, $level + 1)[$child->nodeName];
+                    $parent[$node->nodeName][$child->nodeName] = $this->parse($child, $level + 1)[$child->nodeName];
                 } else {
                     if (isset($this->arrayGroup[$child->nodeName])) {
                         $parent[$node->nodeName][$this->arrayGroup[$child->nodeName]][] = $this->parse($child);
